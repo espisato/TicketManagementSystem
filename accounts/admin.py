@@ -1,4 +1,5 @@
 from django.contrib import admin
+<<<<<<< HEAD
 from django.contrib.auth import get_user_model
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.contrib.auth.models import Group
@@ -44,3 +45,7 @@ admin.site.register(User, UserAdmin)
 
 # Remove Group Model from admin. We're not using it.
 admin.site.unregister(Group)
+=======
+
+# Register your models here.
+>>>>>>> de971c457c57b32399128ec0900d27bd168bb331

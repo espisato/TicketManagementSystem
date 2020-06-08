@@ -1,4 +1,5 @@
 from django.shortcuts import render
+<<<<<<< HEAD
 from django.views.generic import CreateView,View,TemplateView
 from accounts.forms import RegisterForm,UserForm,LoginForm
 from django.contrib.auth import authenticate, login
@@ -47,3 +48,11 @@ class LoginView(FormView):
             return redirect('homepage')
         else:
             return redirect('login/')
+=======
+
+# Create your views here.
+
+
+def index(request):
+    return render(request, 'accounts/index.html')
+>>>>>>> de971c457c57b32399128ec0900d27bd168bb331

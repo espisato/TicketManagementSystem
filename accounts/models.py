@@ -1,4 +1,5 @@
 from django.db import models
+<<<<<<< HEAD
 from django.contrib.auth.models import AbstractBaseUser,BaseUserManager
 # Create your models here.
 
@@ -97,3 +98,7 @@ class User(AbstractBaseUser):
         return self.Agent
 
 
+=======
+
+# Create your models here.
+>>>>>>> de971c457c57b32399128ec0900d27bd168bb331
